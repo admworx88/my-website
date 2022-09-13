@@ -1,23 +1,32 @@
 {
-  "homepage": "https://admworx88.github.com/my-website",
-  "name": "adm-portfolio",
+  "homepage": "https://admworx88.github.com/admworx_portfolio",
+  "name": "admworx_portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@heroicons/react": "^1.0.6",
+    "@fortawesome/fontawesome-svg-core": "^6.1.2",
+    "@fortawesome/free-brands-svg-icons": "^6.1.2",
+    "@fortawesome/free-regular-svg-icons": "^6.1.2",
+    "@fortawesome/free-solid-svg-icons": "^6.1.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@heroicons/react": "^2.0.8",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
+    "babel-plugin-macros": "^3.1.0",
+    "package": "^1.0.1",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
+    "react-scroll": "^1.8.7",
     "react-vertical-timeline-component": "^3.5.2",
+    "typewriter-effect": "^2.19.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build",
+    "predeploy": "yarn run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -43,7 +52,12 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.7",
-    "postcss": "^8.4.14",
+    "gh-pages": "^4.0.0",
+    "postcss": "^8.4.16",
     "tailwindcss": "^3.1.2"
-  }
+  },
+  "main": "Index.js",
+  "repository": "https://github.com/admcreativestudio/my-website.git",
+  "author": "Aljon Moliva <nojlamoliva@yahoo.com>",
+  "license": "MIT"
 }
