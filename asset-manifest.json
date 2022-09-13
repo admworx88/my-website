@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/admworx_portfolio/static/css/main.29e67213.css",
-    "main.js": "/admworx_portfolio/static/js/main.a3f3ddac.js",
-    "static/media/me.png": "/admworx_portfolio/static/media/me.f11608b7bab7e1efeb49.png",
-    "static/media/herobanner.jpg": "/admworx_portfolio/static/media/herobanner.2664418daddb1a370d91.jpg",
-    "static/media/admworx2.png": "/admworx_portfolio/static/media/admworx2.9e72ba7a6f5e08d3711b.png",
-    "index.html": "/admworx_portfolio/index.html",
-    "main.29e67213.css.map": "/admworx_portfolio/static/css/main.29e67213.css.map",
-    "main.a3f3ddac.js.map": "/admworx_portfolio/static/js/main.a3f3ddac.js.map"
+    "main.css": "/my-website/static/css/main.29e67213.css",
+    "main.js": "/my-website/static/js/main.5ae9905a.js",
+    "static/media/me.png": "/my-website/static/media/me.f11608b7bab7e1efeb49.png",
+    "static/media/herobanner.jpg": "/my-website/static/media/herobanner.2664418daddb1a370d91.jpg",
+    "static/media/admworx2.png": "/my-website/static/media/admworx2.9e72ba7a6f5e08d3711b.png",
+    "index.html": "/my-website/index.html",
+    "main.29e67213.css.map": "/my-website/static/css/main.29e67213.css.map",
+    "main.5ae9905a.js.map": "/my-website/static/js/main.5ae9905a.js.map"
   },
   "entrypoints": [
     "static/css/main.29e67213.css",
-    "static/js/main.a3f3ddac.js"
+    "static/js/main.5ae9905a.js"
   ]
 }
