@@ -197,15 +197,15 @@ export default function About() {
               games like mobile legends and watching movies. This is to relieve
               stress from work.
             </p>
-            <div className="flex flex-wrap space-x-4  text-lg font-medium text-teal-500  ">
+            <div className="flex md:flex-row flex-col md:space-x-4 text-lg font-medium text-teal-500  ">
               <Link to={'contacts'} smooth duration={800}>
                 {' '}
-                <button className="cursor-pointer border-2 border-teal-500 hover:bg-teal-500 hover:bg-opacity-20 rounded-md w-max px-6 py-2 mt-10 ">
+                <button className="cursor-pointer border-2 border-teal-500 hover:bg-teal-500 hover:bg-opacity-20 rounded-md md:w-max w-full px-6 py-2 md:mt-10 mt-5 ">
                   Hire Me
                 </button>
               </Link>
 
-              <button className="cursor-pointer border-2 border-teal-500 hover:bg-teal-500 hover:bg-opacity-20 rounded-md w-max px-6 py-2 mt-10 ">
+              <button className="cursor-pointer border-2 border-teal-500 hover:bg-teal-500 hover:bg-opacity-20 rounded-md md:w-max w-full px-6 py-2 md:mt-10 mt-5">
                 Download CV
               </button>
             </div>
