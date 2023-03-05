@@ -8,6 +8,7 @@ module.exports = {
         KaushanScript: ['Kaushan Script'],
         JosefinSans: ['Josefin Sans'],
         Lato: ['Lato'],
+        Righteous: ['Righteous'],
       },
     },
   },

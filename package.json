@@ -49,8 +49,8 @@
     "autoprefixer": "^10.4.7",
     "gh-pages": "^4.0.0",
     "postcss": "^8.4.16",
-    "tailwindcss": "^3.1.2",
-    "react-scripts": "5.0.1"
+    "react-scripts": "5.0.1",
+    "tailwindcss": "^3.1.2"
   },
   "resolutions": {
     "nth-check": "^2.0.1"
@@ -58,5 +58,6 @@
   "main": "index.js",
   "repository": "https://github.com/admcreativestudio/my-website.git",
   "author": "Aljon Moliva <nojlamoliva@yahoo.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "packageManager": "yarn@3.4.1"
 }

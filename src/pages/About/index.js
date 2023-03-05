@@ -1,84 +1,22 @@
 import React from 'react';
-import Profile from '../assets/me.png';
+import Profile from '../../assets/boss.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-  faGamepad,
-  faMusic,
-  faPlane,
-  faFilm,
-  faMugHot,
-  faBasketball,
-  faMoneyBill,
-  faCarSide,
-} from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-scroll';
 export default function About() {
-  const personal_details = [
-    {
-      id: 1,
-      details: (
-        <>
-          <label className="text-teal-400">BIRTHDAY</label>
-          <strong className="ml-4">August 8, 1992</strong>
-        </>
-      ),
-    },
-    {
-      id: 2,
-      details: (
-        <>
-          <label className="text-teal-400">PHONE</label>
-          <strong className="ml-4">+63 9338110899</strong>
-        </>
-      ),
-    },
-    {
-      id: 3,
-      details: (
-        <>
-          <label className="text-teal-400">EMAIL</label>
-          <strong className="ml-4">nojlamoliva08@gmail</strong>
-        </>
-      ),
-    },
-    {
-      id: 4,
-      details: (
-        <>
-          <label className="text-teal-400">WEBSITE</label>
-          <strong className="ml-4">www.admworx.com</strong>
-        </>
-      ),
-    },
-    {
-      id: 5,
-      details: (
-        <>
-          <label className="text-teal-400">ADDRESS</label>
-          <strong className="ml-4">Davao City, Philippines</strong>
-        </>
-      ),
-    },
-    {
-      id: 6,
-      details: (
-        <>
-          <label className="text-teal-400">JOB STATUS</label>
-          <strong className="ml-4 bg-teal-500 rounded-sm px-2 py-[1px] ">
-            Freelance
-          </strong>
-        </>
-      ),
-    },
-  ];
+  const arrowStyle = {
+    width: 0,
+    height: 0,
+    borderStyle: 'solid',
+    borderWidth: '50px 0 50px 100px',
+    borderColor: 'transparent transparent transparent #00656f',
+  };
 
-  const my_interests = [
+  const technologies = [
     {
       id: 1,
       details: (
         <>
-          <FontAwesomeIcon className="mb-2" icon={faGamepad} size="xl" />
-          <label>Games</label>
+          <label>JavaScript (ES6+)</label>
         </>
       ),
     },
@@ -86,8 +24,7 @@ export default function About() {
       id: 2,
       details: (
         <>
-          <FontAwesomeIcon className="mb-2" icon={faMusic} size="xl" />
-          <label>Music</label>
+          <label>C#.net</label>
         </>
       ),
     },
@@ -95,8 +32,7 @@ export default function About() {
       id: 3,
       details: (
         <>
-          <FontAwesomeIcon className="mb-2" icon={faPlane} size="xl" />
-          <label>Travel</label>
+          <label>React</label>
         </>
       ),
     },
@@ -104,8 +40,7 @@ export default function About() {
       id: 4,
       details: (
         <>
-          <FontAwesomeIcon className="mb-2" icon={faFilm} size="xl" />
-          <label>Movies</label>
+          <label>NodeJS</label>
         </>
       ),
     },
@@ -113,35 +48,7 @@ export default function About() {
       id: 5,
       details: (
         <>
-          <FontAwesomeIcon className="mb-2" icon={faMugHot} size="xl" />
-          <label>Coffee</label>
-        </>
-      ),
-    },
-    {
-      id: 6,
-      details: (
-        <>
-          <FontAwesomeIcon className="mb-2" icon={faBasketball} size="xl" />
-          <label>Sports</label>
-        </>
-      ),
-    },
-    {
-      id: 7,
-      details: (
-        <>
-          <FontAwesomeIcon className="mb-2" icon={faMoneyBill} size="xl" />
-          <label>Money</label>
-        </>
-      ),
-    },
-    {
-      id: 8,
-      details: (
-        <>
-          <FontAwesomeIcon className="mb-2" icon={faCarSide} size="xl" />
-          <label>Cars</label>
+          <label>TailwindCSS</label>
         </>
       ),
     },
@@ -213,24 +120,15 @@ export default function About() {
         </div>
       </div>
       <div className="max-w-screen-xl mx-auto flex flex-col justify-between h-full px-4 md:px-10 sm:px-15 py-0 md:py-10 md:flex-row xl:w-4/5">
-        <div className="flex flex-col font-JosefinSans w-full px-10 md:px-0 md:pr-10 mb-5 basis-2/4">
-          <h1 className="font-extrabold mb-2">PERSONAL DETAILS</h1>
-          {personal_details.map(({ id, details }) => (
-            <div
-              key={id}
-              className="flex items-center mt-2 justify-between text-sm"
-            >
-              {details}
-            </div>
-          ))}
-        </div>
         <div className="flex flex-col font-JosefinSans w-full px-10 md:px-0 pb-4 mb-5 basis-3/4 mt-10 md:mt-0">
-          <h1 className="font-extrabold mb-2">MY INTERESTS</h1>
-          <div className="flex flex-wrap w-full justify-start">
-            {my_interests.map(({ id, details }) => (
+          <h1 className="font-extrabold mb-2">
+            Here are a few technologies I’ve been working with recently
+          </h1>
+          <div className="flex flex-col w-full justify-start">
+            {technologies.map(({ id, details }) => (
               <div
                 id={id}
-                className="flex flex-col items-center border border-gray-600 rounded-md w-20 p-4 mt-2 text-sm mx-1 hover:scale-105 duration-200"
+                className="flex flex-col items-center w-max p-4 mt-2 text-sm mx-1 hover:scale-105 duration-200"
               >
                 {details}
               </div>

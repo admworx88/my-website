@@ -1,5 +1,5 @@
 import React from 'react';
-import HeroBanner from '../assets/herobanner.jpg';
+import HeroBanner from '../../assets/herobanner.jpg';
 import Typewriter from 'typewriter-effect';
 
 export default function Hero() {
